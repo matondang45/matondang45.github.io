@@ -30,95 +30,9 @@
 	<Document>
 		<name>ADMINISTRASIKECAMATAN_AR_50K.shp</name>
 		<open>1</open>
-		<Schema name="ADMINISTRASIKECAMATAN_AR_50K" id="S_ADMINISTRASIKECAMATAN_AR_50K_SSSSSDSSSSSSSSSSSSSSSSSSIDD">
-			<SimpleField type="string" name="KDPPUM"><displayName>&lt;b&gt;KDPPUM&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="NAMOBJ"><displayName>&lt;b&gt;NAMOBJ&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="REMARK"><displayName>&lt;b&gt;REMARK&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="KDPBPS"><displayName>&lt;b&gt;KDPBPS&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="FCODE"><displayName>&lt;b&gt;FCODE&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="double" name="LUASWH"><displayName>&lt;b&gt;LUASWH&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="UUPP"><displayName>&lt;b&gt;UUPP&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="SRS_ID"><displayName>&lt;b&gt;SRS_ID&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="LCODE"><displayName>&lt;b&gt;LCODE&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="METADATA"><displayName>&lt;b&gt;METADATA&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="KDEBPS"><displayName>&lt;b&gt;KDEBPS&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="KDEPUM"><displayName>&lt;b&gt;KDEPUM&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="KDCBPS"><displayName>&lt;b&gt;KDCBPS&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="KDCPUM"><displayName>&lt;b&gt;KDCPUM&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="KDBBPS"><displayName>&lt;b&gt;KDBBPS&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="KDBPUM"><displayName>&lt;b&gt;KDBPUM&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="WADMKD"><displayName>&lt;b&gt;WADMKD&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="WIADKD"><displayName>&lt;b&gt;WIADKD&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="WADMKC"><displayName>&lt;b&gt;WADMKC&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="WIADKC"><displayName>&lt;b&gt;WIADKC&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="WADMKK"><displayName>&lt;b&gt;WADMKK&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="WIADKK"><displayName>&lt;b&gt;WIADKK&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="WADMPR"><displayName>&lt;b&gt;WADMPR&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="string" name="WIADPR"><displayName>&lt;b&gt;WIADPR&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="int" name="TIPADM"><displayName>&lt;b&gt;TIPADM&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="double" name="SHAPE_Leng"><displayName>&lt;b&gt;SHAPE_Leng&lt;/b&gt;</displayName>
-</SimpleField>
-			<SimpleField type="double" name="SHAPE_Area"><displayName>&lt;b&gt;SHAPE_Area&lt;/b&gt;</displayName>
-</SimpleField>
-		</Schema>
+		
 		<Style id="falseColor">
-			<BalloonStyle>
-				<text><![CDATA[<table border="0">
-  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
-  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
-  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
-  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
-  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
-  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
-  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
-  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
-  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
-  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
-  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
-  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
-  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
-  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
-  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
-  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
-  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
-  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
-  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
-  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
-  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
-  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
-  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
-  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
-  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
-  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
-  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
-</table>
-]]></text>
-			</BalloonStyle>
+			
 			<LineStyle>
 				<color>ff0000ff</color>
 				<width>1.5</width>
@@ -129,38 +43,7 @@
 			</PolyStyle>
 		</Style>
 		<Style id="falseColor0">
-			<BalloonStyle>
-				<text><![CDATA[<table border="0">
-  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
-  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
-  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
-  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
-  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
-  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
-  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
-  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
-  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
-  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
-  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
-  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
-  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
-  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
-  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
-  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
-  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
-  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
-  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
-  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
-  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
-  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
-  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
-  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
-  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
-  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
-  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
-</table>
-]]></text>
-			</BalloonStyle>
+			
 			<LineStyle>
 				<color>ff0000ff</color>
 				<width>1.5</width>
@@ -171,38 +54,7 @@
 			</PolyStyle>
 		</Style>
 		<Style id="falseColor1">
-			<BalloonStyle>
-				<text><![CDATA[<table border="0">
-  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
-  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
-  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
-  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
-  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
-  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
-  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
-  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
-  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
-  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
-  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
-  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
-  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
-  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
-  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
-  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
-  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
-  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
-  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
-  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
-  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
-  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
-  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
-  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
-  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
-  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
-  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
-</table>
-]]></text>
-			</BalloonStyle>
+			
 			<LineStyle>
 				<color>ff0000ff</color>
 				<width>1.5</width>
@@ -213,38 +65,7 @@
 			</PolyStyle>
 		</Style>
 		<Style id="falseColor2">
-			<BalloonStyle>
-				<text><![CDATA[<table border="0">
-  <tr><td><b>KDPPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPPUM]</td></tr>
-  <tr><td><b>NAMOBJ</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/NAMOBJ]</td></tr>
-  <tr><td><b>REMARK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/REMARK]</td></tr>
-  <tr><td><b>KDPBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDPBPS]</td></tr>
-  <tr><td><b>FCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/FCODE]</td></tr>
-  <tr><td><b>LUASWH</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LUASWH]</td></tr>
-  <tr><td><b>UUPP</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/UUPP]</td></tr>
-  <tr><td><b>SRS_ID</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SRS_ID]</td></tr>
-  <tr><td><b>LCODE</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/LCODE]</td></tr>
-  <tr><td><b>METADATA</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/METADATA]</td></tr>
-  <tr><td><b>KDEBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEBPS]</td></tr>
-  <tr><td><b>KDEPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDEPUM]</td></tr>
-  <tr><td><b>KDCBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCBPS]</td></tr>
-  <tr><td><b>KDCPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDCPUM]</td></tr>
-  <tr><td><b>KDBBPS</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBBPS]</td></tr>
-  <tr><td><b>KDBPUM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/KDBPUM]</td></tr>
-  <tr><td><b>WADMKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKD]</td></tr>
-  <tr><td><b>WIADKD</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKD]</td></tr>
-  <tr><td><b>WADMKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKC]</td></tr>
-  <tr><td><b>WIADKC</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKC]</td></tr>
-  <tr><td><b>WADMKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMKK]</td></tr>
-  <tr><td><b>WIADKK</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADKK]</td></tr>
-  <tr><td><b>WADMPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WADMPR]</td></tr>
-  <tr><td><b>WIADPR</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/WIADPR]</td></tr>
-  <tr><td><b>TIPADM</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/TIPADM]</td></tr>
-  <tr><td><b>SHAPE_Leng</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Leng]</td></tr>
-  <tr><td><b>SHAPE_Area</b></td><td>$[ADMINISTRASIKECAMATAN_AR_50K/SHAPE_Area]</td></tr>
-</table>
-]]></text>
-			</BalloonStyle>
+			
 			<LineStyle>
 				<color>ff0000ff</color>
 				<width>1.5</width>
@@ -280,37 +101,7 @@
 			<Placemark>
 				<name>KISARAN BARAT</name>
 				<styleUrl>#falseColor3</styleUrl>
-				<ExtendedData>
-					<SchemaData schemaUrl="#S_ADMINISTRASIKECAMATAN_AR_50K_SSSSSDSSSSSSSSSSSSSSSSSSIDD">
-						<SimpleData name="KDPPUM"></SimpleData>
-						<SimpleData name="NAMOBJ">KISARAN BARAT</SimpleData>
-						<SimpleData name="REMARK">Wilayah Administrasi Kecamatan</SimpleData>
-						<SimpleData name="KDPBPS"></SimpleData>
-						<SimpleData name="FCODE"></SimpleData>
-						<SimpleData name="LUASWH">0</SimpleData>
-						<SimpleData name="UUPP"></SimpleData>
-						<SimpleData name="SRS_ID"></SimpleData>
-						<SimpleData name="LCODE">BA0080</SimpleData>
-						<SimpleData name="METADATA"></SimpleData>
-						<SimpleData name="KDEBPS"></SimpleData>
-						<SimpleData name="KDEPUM"></SimpleData>
-						<SimpleData name="KDCBPS"></SimpleData>
-						<SimpleData name="KDCPUM"></SimpleData>
-						<SimpleData name="KDBBPS"></SimpleData>
-						<SimpleData name="KDBPUM"></SimpleData>
-						<SimpleData name="WADMKD"></SimpleData>
-						<SimpleData name="WIADKD"></SimpleData>
-						<SimpleData name="WADMKC"></SimpleData>
-						<SimpleData name="WIADKC"></SimpleData>
-						<SimpleData name="WADMKK">ASAHAN</SimpleData>
-						<SimpleData name="WIADKK"></SimpleData>
-						<SimpleData name="WADMPR">SUMATERA UTARA</SimpleData>
-						<SimpleData name="WIADPR"></SimpleData>
-						<SimpleData name="TIPADM">0</SimpleData>
-						<SimpleData name="SHAPE_Leng">0.267503</SimpleData>
-						<SimpleData name="SHAPE_Area">0.00245031</SimpleData>
-					</SchemaData>
-				</ExtendedData>
+				
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
@@ -324,37 +115,7 @@
 			<Placemark>
 				<name>KISARAN TIMUR</name>
 				<styleUrl>#falseColor4</styleUrl>
-				<ExtendedData>
-					<SchemaData schemaUrl="#S_ADMINISTRASIKECAMATAN_AR_50K_SSSSSDSSSSSSSSSSSSSSSSSSIDD">
-						<SimpleData name="KDPPUM"></SimpleData>
-						<SimpleData name="NAMOBJ">KISARAN TIMUR</SimpleData>
-						<SimpleData name="REMARK">Wilayah Administrasi Kecamatan</SimpleData>
-						<SimpleData name="KDPBPS"></SimpleData>
-						<SimpleData name="FCODE"></SimpleData>
-						<SimpleData name="LUASWH">0</SimpleData>
-						<SimpleData name="UUPP"></SimpleData>
-						<SimpleData name="SRS_ID"></SimpleData>
-						<SimpleData name="LCODE">BA0080</SimpleData>
-						<SimpleData name="METADATA"></SimpleData>
-						<SimpleData name="KDEBPS"></SimpleData>
-						<SimpleData name="KDEPUM"></SimpleData>
-						<SimpleData name="KDCBPS"></SimpleData>
-						<SimpleData name="KDCPUM"></SimpleData>
-						<SimpleData name="KDBBPS"></SimpleData>
-						<SimpleData name="KDBPUM"></SimpleData>
-						<SimpleData name="WADMKD"></SimpleData>
-						<SimpleData name="WIADKD"></SimpleData>
-						<SimpleData name="WADMKC"></SimpleData>
-						<SimpleData name="WIADKC"></SimpleData>
-						<SimpleData name="WADMKK">ASAHAN</SimpleData>
-						<SimpleData name="WIADKK"></SimpleData>
-						<SimpleData name="WADMPR">SUMATERA UTARA</SimpleData>
-						<SimpleData name="WIADPR"></SimpleData>
-						<SimpleData name="TIPADM">0</SimpleData>
-						<SimpleData name="SHAPE_Leng">0.344598</SimpleData>
-						<SimpleData name="SHAPE_Area">0.00281004</SimpleData>
-					</SchemaData>
-				</ExtendedData>
+				
 				<Polygon>
 					<outerBoundaryIs>
 						<LinearRing>
